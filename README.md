@@ -1,18 +1,18 @@
 ![destructive](https://img.shields.io/badge/Version-v1.0.0-blue.svg?style=flat)
 
-#Afinador - para afinar instrumentos musicais de ouvido
+#Afinador
 
-Basicamente o Afinador WebPpp toca a nota na frequência exata (Exemplo Lá 440Hz) e você pode afinar seu violão, baixo, guitarra, etc…  
+Afinador is a Progressive Web App dedicate to musicians who need only one note to tune your instruments
+
+O Afinador toca a nota na frequência exata (Exemplo Lá 440Hz) e você pode afinar seu violão, baixo, guitarra, etc… de ouvido.
 
 ## To do
 *Next*
-- ~~Play song statements~~
+- ~~Javascript logical statements~~
 - ~~User interface (app design, color, typography, icon)~~
-- WebApp front-end structure (html, css, app manifest, service-workers)
-- ~~Landing Page for distribute - https://avelarfortunato.com/weeknumber/~~
-- Add about section
+- ~~Add about section~~
+- WebApp structure (html, css, app manifest, service-workers)
 - Create add home screen button
 
 *Later*
-- Select other notes (C, D, E, F, G, B)
-
+- Structure to select notes = C, D, E, F, G, ~~A~~, B
