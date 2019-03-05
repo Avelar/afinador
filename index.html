@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1">
+    <title>Afinador WebApp</title>
+    <meta name="author" content="Avelar Fortunato">
+    <link rel="stylesheet" href="application.css">
+    <script type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="tuner-container">
+      <div class="icon info-box-open"></div>
+      <div class="headline">
+        Pres the button to play
+        <br>
+        440hz - A
+      </div>
+      <div data-key="32" class="icon indicator-on-off"></div>
+      <button type="button" name="button">
+        <div data-key="32" class="key"></div>
+      </button>
+      <audio data-key="32" src="440.ogg.mp3"></audio>
+    </div>
+    <div class="info-box">
+      <div class="info-box-content">
+        <a href="#" class="icon info-box-close">
+          <span class="info-box-close-label">Close</span>
+        </a>
+        <p>
+          Afinador is a web application dedicated to musicians and enthusiasts who only need a chord sound to tune their instruments. This version has the A tune, 440hz.
+        </p>
+        <p>
+          This is a simple way to tuner your instrument, just listen, tune, and play your favorite musics. Go Ahead.
+        </p>
+        <div class="info-box-content-footer">
+          <img src="" alt="">
+          Afinador 2018 - By <a href="http://www.avelarfortunato.com" target="_blank">Avelar Fortunato</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="application.js"></script>
+</html>
