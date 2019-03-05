@@ -8,6 +8,7 @@ O Afinador toca a nota na frequência exata (Exemplo Lá 440Hz) e você pode afi
 
 <img width="200" src="https://github.com/Avelar/avelar.github.io/blob/master/assets/images/afinador.gif" alt="Afinador exemple image">
 
+See in action: http://avelarfortunato.com/afinador/
 
 ## To do
 *Next*
