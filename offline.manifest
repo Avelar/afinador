@@ -1,0 +1,12 @@
+CACHE MANIFEST
+
+#v1.0
+
+CACHE:
+#assets/stylesheets/application.css
+#assets/images/icon.png
+#img/card-background.jpg
+#assets/javascript/application.js
+
+NETWORK:
+*

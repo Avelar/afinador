@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+/* Import google fonts */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400');
 
+/* variables color */
 :root {
   --main-color: #384D9D;
   --main-color-light: #B2C2FF;
@@ -23,6 +25,8 @@ body {
   background: linear-gradient(180deg, #445DBF 0%, #384D9D 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#445DBF', endColorstr='#384D9D',GradientType=0 );
 }
+
+/* Typography */
 .headline {
   text-transform: uppercase;
   font-size: 0.7em;
@@ -32,6 +36,8 @@ body {
   padding: 0px 20px;
   margin: -30px 0 30px 0;
 }
+
+/* Layout */
 .tuner-container {
   display: flex;
   flex-direction: column;
@@ -40,9 +46,35 @@ body {
   justify-content: center;
   height: 100%;
 }
+/* App */
+button {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.key {
+  background: url('../images/buttom.png') no-repeat;
+  background-size: 100%;
+  width: 288px;
+  height: 288px;
+  display: block;
+  transition: all 0.1s;
+  /* transition-timing-function: cubic-bezier(0.07, 1.63, 0.9,-0.78); */
+  transition-timing-function: ease-out;
+}
+.playing {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+
+/* Icons */
 .icon {
-  background: url('images/icons.png') no-repeat;
-  background: url('images/icons.svg') no-repeat;
+  background: url('../images/icons.png') no-repeat;
+  background: url('../images/icons.svg') no-repeat;
   background-size: 100%;
   display: block;
 }
@@ -55,6 +87,8 @@ body {
 .on {
   background-position: 0 -31px;
 }
+
+/* About */
 .info-box-open {
   background-position: 0 -58px;
   width: 52px;
@@ -105,26 +139,4 @@ body {
   position: absolute;
   bottom: 10px;
   text-align: center;
-}
-button {
-  border: none;
-  background: transparent;
-  outline: none;
-}
-.key {
-  background: url('images/buttom.png') no-repeat;
-  background-size: 100%;
-  width: 288px;
-  height: 288px;
-  display: block;
-  transition: all 0.1s;
-  /* transition-timing-function: cubic-bezier(0.07, 1.63, 0.9,-0.78); */
-  transition-timing-function: ease-out;
-}
-.playing {
-  -moz-transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
 }

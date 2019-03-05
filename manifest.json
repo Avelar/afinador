@@ -1,0 +1,17 @@
+{
+  "name": "Afinador",
+  "short_name": "Afinador",
+  "start_url" : "./",
+  "theme_color": "#384D9D",
+  "background_color": "#384D9D",
+  "description": "Afinador is a Progressive Web App dedicate to musicians who need only one note to tune your instruments",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "sizes" : "512x512",
+      "type" : "image/png"
+    }
+  ]
+}
