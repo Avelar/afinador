@@ -11,7 +11,8 @@ O Afinador toca a nota na frequência exata (Exemplo Lá 440Hz) e você pode afi
 - ~~Javascript logical statements~~
 - ~~User interface (app design, color, typography, icon)~~
 - ~~Add about section~~
-- WebApp structure (html, css, app manifest, service-workers)
+- ~~WebApp structure (html, css, app manifest, service-workers)~~
+- asset directory for mp3 tunes
 - Create add home screen button
 
 *Later*
