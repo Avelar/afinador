@@ -17,7 +17,7 @@ Listen the Afinador in action: http://avelarfortunato.com/afinador/
 - ~~Add about section~~
 - ~~WebApp structure (html, css, app manifest, service-workers)~~
 - asset directory for mp3 tunes
-- Create add home screen button
+- Create "add home screen button" PWA improvement
 
 *Later*
-- Structure to select notes = C, D, E, F, G, ~~A~~, B
+- Structure to select and tune other notes = C, D, E, F, G, ~~A~~, B
